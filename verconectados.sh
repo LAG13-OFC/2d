@@ -25,7 +25,7 @@ while true; do
       echo "CONEXIONES EN EL PUERTO 22 : $PSIPHON_PORT_22"
       ;;      
     4)  
-        wget https://raw.githubusercontent.com/vpsvip7/2d/main/verconectados.sh && chmod +x verconectados.sh
+        wget https://raw.githubusercontent.com/LAG13-OFC/2d/main/verconectados.sh && chmod +x verconectados.sh
       ;;
     5)
       echo "Saliendo del script..."

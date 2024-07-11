@@ -643,7 +643,7 @@ make_service(){
 
 cat <<EOF > /etc/systemd/system/UDPserver.service
 [Unit]
-Description=UDPserver Service by @diegovip7
+Description=UDPserver Service by @LAG13-OFC
 After=network.target
 
 [Service]
@@ -868,7 +868,7 @@ quit_exclude(){
 }
 
 menu_udp(){
-	title "${a1:-SCRIPT DE CONFIGRACION UDPserver} BY @diegovip7"
+	title "${a1:-SCRIPT DE CONFIGRACION UDPserver} BY @LAG13-OFC"
 	print_center -ama 'UDPserver Binary by team newtoolsworks'
 	print_center -ama 'UDPclient Android SocksIP'
 	msg -bar

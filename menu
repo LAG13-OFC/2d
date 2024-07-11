@@ -224,7 +224,7 @@ _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[41;1;37m       SSHPLUS MANAGER :@diegovip7     \E[0m"
+echo -e "\E[41;1;37m       SSHPLUS MANAGER :@LAG13-OFC     \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;32m        SISTEMA         MEMORIA RAM      PROCESADOR "
 echo -e "\033[1;31mOS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mNucleos: \033[1;37m$_core\033[0m"
@@ -257,7 +257,7 @@ case "$x" in
    ;;
    22)
    clear
-   wget -O /bin/menu https://raw.githubusercontent.com/vpsvip7/2d/main/criarusuario &> /dev/null
+   wget -O /bin/menu https://raw.githubusercontent.com/LAG13-OFC/2d/main/criarusuario &> /dev/null
    echo -ne "\n\033[1;31mArchivo de crear user  \033[1;33mActualizado correctamente   \033[1;32m enter para volver al MENU!\033[0m"; read
    menu2
    ;;
@@ -288,7 +288,7 @@ case "$x" in
    autoexec
    ;;
    30)
-   wget -O /bin/menu https://raw.githubusercontent.com/vpsvip7/2d/main/menu
+   wget -O /bin/menu https://raw.githubusercontent.com/LAG13-OFC/2d/main/menu
    ;;
    31)
    clear
@@ -348,7 +348,7 @@ _userexp=$(printf '%-5s' "$_expuser")
 _tuser=$(awk -F: '$3>=1000 {print $1}' /etc/passwd | grep -v nobody | wc -l)
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[41;1;37m       ⇱ SSHPLUS MANAGER :@diegovip7⇲       \E[0m"
+echo -e "\E[41;1;37m       ⇱ SSHPLUS MANAGER :@LAG13-OFC⇲       \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;32m  SISTEMA           MEMORIA RAM      PROCESADOR "
 echo -e "\033[1;31m  OS: \033[1;37m$_system \033[1;31mTotal:\033[1;37m$_ram \033[1;31mNucleos: \033[1;37m$_core\033[0m"
@@ -478,7 +478,7 @@ case "$x" in
    ;;
    40)
    clear
-   source <(curl -sL https://raw.githubusercontent.com/vpsvip7/2d/main/menupsiphon.sh)
+   source <(curl -sL https://raw.githubusercontent.com/LAG13-OFC/2d/main/menupsiphon.sh)
    ;;
    41)
    v2ray
@@ -493,10 +493,10 @@ case "$x" in
    echo -ne "\n\033[1;31mENTER \033[1;33mPARA Volver al \033[1;32mMENU!\033[0m"; read
    ;;
    44)
-   source <(curl -sL https://raw.githubusercontent.com/vpsvip7/2d/main/wondershaper.sh)
+   source <(curl -sL https://raw.githubusercontent.com/LAG13-OFC/2d/main/wondershaper.sh)
    ;;
    45)
-   wget -O /etc/wsproxy.py https://raw.githubusercontent.com/vpsvip7/1s/main/wsproxy.py
+   wget -O /etc/wsproxy.py https://raw.githubusercontent.com/LAG13-OFC/1s/main/wsproxy.py
    sleep 4
    ;;
    46)

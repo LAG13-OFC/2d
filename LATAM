@@ -1,5 +1,5 @@
 #!/bin/bash
-##-->> INSTALADOR --- ACTUALIZADO EL 28-04-2024 -- >> By @diegovip7 << ---
+##-->> INSTALADOR --- ACTUALIZADO EL 28-04-2024 -- >> By @LAG13-OFC << ---
 clear && clear
 colores="$(pwd)/colores"
 rm -rf ${colores}
@@ -189,7 +189,7 @@ password required pam_permit.so' >/etc/pam.d/common-password && chmod +x /etc/pa
   read -t 120 -n 1 -rsp $'\033[1;97m           Preciona Enter Para continuar\n'
   clear && clear
   apt update
-  wget -O /usr/bin/LATAM https://raw.githubusercontent.com/vpsvip7/2d/main/LATAM &>/dev/null
+  wget -O /usr/bin/LATAM https://raw.githubusercontent.com/LAG13-OFC/2d/main/LATAM &>/dev/null
   chmod +x /usr/bin/LATAM
 }
 
@@ -376,7 +376,7 @@ check_key() {
   echo -e "\033[1;32m————————————————————————————————————————————————————"
   figlet -w 85 -f smslant "         SCRIPT
          LATAM Turbo  " | lolcat
-  msgi -ama "          [ ----- \033[1;97m 🇦🇷By @diegovip7 🇦🇷\033[1;33m ----- ]"
+  msgi -ama "          [ ----- \033[1;97m 🇦🇷By @LAG13-OFC 🇦🇷\033[1;33m ----- ]"
   echo -e "\033[1;32m————————————————————————————————————————————————————"
   msgi -bar2
   echo -ne "\033[1;96m          >>> INTRODUZCA LA KEY ABAJO <<<\n\033[1;31m        " && read Key
